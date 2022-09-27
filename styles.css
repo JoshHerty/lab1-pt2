@@ -1,0 +1,119 @@
+/*resets -- always at top 
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+  */
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f9fafc;
+  padding: 15px;
+}
+
+h1 {
+  font-size: medium;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #69696a;
+}
+
+.about-heading {
+  font-size: xx-large;
+}
+
+.about-text {
+  color: #69696a;
+  padding-left: 10px;
+  border-left: 3px solid #69696a;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  border-radius: 15px;
+  color: #fff;
+  padding: 5px 0;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(247, 193, 162, 0.7);
+}
+
+.footer-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  width: 175px;
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+  }
+
+  nav div {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width: 275px;
+  }
+
+  #header-button {
+    padding: 10px;
+    border-radius: 20px;
+    margin: auto;
+  }
+
+  main {
+    width: 50%;
+    margin: 10% 0;
+  }
+
+  .circle {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    background-color: rgba(247, 136, 167, 0.6);
+    border-radius: 100%;
+  }
+  .circle-medium {
+    width: 188px;
+    height: 188px;
+    position: absolute;
+    top: 150px;
+    left: 145px;
+    background-color: rgba(247, 193, 162, 0.7);
+    border-radius: 100%;
+  }
+  .circle-small {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 40px;
+    left: 190px;
+    background-color: rgba(207, 130, 213, 0.6);
+    border-radius: 100%;
+  }
+}
